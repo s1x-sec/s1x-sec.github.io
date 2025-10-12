@@ -16,16 +16,16 @@ minimal_mistakes_skin    : "dark" # "air", "haxor", "contrast", "dark", "dirt", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "s1mpl3x's Blog"
+title                    : "s1x's Blog"
 title_separator          : "-"
-name                     : "S1mpl3x"
+name                     : "s1x"
 description              : "Cibersecurity Blog"
-url                      : "https://s1mpl3x-sec.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://s1x.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "s1mpl3x-sec/s1mpl3x.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 logo                     : #
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-masthead_title           : "S1mpl3x's Blog"
+masthead_title           : "s1x's Blog"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
@@ -102,9 +102,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "s1mpl3x"
+  name             : "s1x"
   avatar           : "/assets/images/avatar.jpeg"
-  bio              : "eJPTv2||eCPPTv2<br>Cybersecurity Analyst"
+  bio              : "eJPTv2||eCPPTv2||eWPTX<br>Security Researcher"
   location         : "ESP"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -125,7 +125,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "s1mpl3xSec"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
