@@ -2,7 +2,7 @@
 layout: single
 title: Intigriti Challenge 1025
 excerpt: "Shopfix is a website that helps us render images from a URL, but... could that be the only thing it lets us do? Discover the solution(s) to this fun October challenge."
-date: 2024-10-13
+date: 2024-10-14
 classes: wide
 header:
   teaser: /assets/images/intigriti1025/portada.png
