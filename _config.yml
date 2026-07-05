@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "s1x"
-  avatar           : "/assets/images/profilegatito.jpg"
+  avatar           : "/assets/images/avatar.png"
   bio              : "OSCP + / eWPTX / eCPPT / eJPT <br>Offensive Security Specialist"
   location         : "ESP"
   uri              :
