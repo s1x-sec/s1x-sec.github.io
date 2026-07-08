@@ -11,7 +11,8 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes@4.15.1"
+#remote_theme             : "mmistakes/minimal-mistakes@4.15.1"
+remote_theme              : "pages-themes/hacker@v0.2.0"
 minimal_mistakes_skin    : "haxor" # "air", "haxor", "contrast", "dark", "dirt", "neon", "mint", "aqua", "sunrise", "plum"
 
 # Site Settings
