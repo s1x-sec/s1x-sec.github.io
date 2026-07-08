@@ -56,7 +56,7 @@ After the first attempt, I had a week where it didn't really affect me, but then
 
 If you've made it this far, I'm guessing you want to know how I approached everything and what resources helped me pass.
 
-**Content Management**
+### **Content Management**
 
 The syllabus has 31 modules, of which I did the ones that strictly appeared on the exam (I'm trying to complete the rest now). As I mentioned, reading the text, taking notes, and researching the techniques detailed there took me 95 hours. It might seem like a lot of boring hours, but keep in mind that throughout the syllabus there are small labs that liven up the journey.
 
@@ -68,13 +68,13 @@ Is the whole syllabus enough to pass? Yes and no.......OffSec isn't going to tea
 
 Talking to colleagues who were preparing for the OSCP, I realized that we all approached things differently, and that's the beautiful thing about this field: sharing and learning (which is why I'm making this blog).
 
-**Labs**
+### **Labs**
 
 If I had to keep just one thing from the whole certification, I would definitely choose the Challenge Labs. You start from the bottom up and you really feel like you're making progress. An example: in Secura, I got stuck for 3 hours because I didn't use nxc with the --local-auth flag, and then in a more advanced lab, I was already testing with --local-auth and without it....it seems silly, but details like that help you not fail on the small stuff on exam day (which still happens).
 
 It's true that I don't see OSCP A, B, and C aligned with the difficulty of the exams....the standalone machines have a suitable difficulty similar to the exam ones, but the AD sets feel a bit outdated compared to the two AD sets I actually ended up solving in the exam (I don't know if the rest of the exam scenarios are easier).
 
-**First Exam Attempt**
+### **First Exam Attempt**
 
 On the first attempt, I felt super prepared. It's true that the little imposter inside me only remembered the machines I couldn't solve and had to look up write-ups for (I'll talk about this later).
 
@@ -90,7 +90,7 @@ Even so, I wrote the report and sent it to OffSec to get feedback on what I had 
 
 Days passed, and I had to face a brutal panic about failing again. I couldn't sit down to do a CTF, I couldn't review notes or solve new machines. My head was completely exhausted, which led me to take the second exam attempt without studying.
 
-**Second Exam Attempt**
+### **Second Exam Attempt**
 
 This time the exam started at 9 AM. I consider myself much more productive around 10-11 AM, which is why I always choose these kinds of times.
 
@@ -104,7 +104,7 @@ I could say that at that moment I was happy about getting the certification, but
 
 The next day I did the report, and 3 days after sending it, they confirmed I had passed.
 
-**Resources**
+### **Resources**
 
 As for resources, I used the OffSec material.....What!?!? No 10 additional tutorials? The truth is I don't have a track record of all the resources used. I have commands and notes that I put together as OffSec taught me the techniques needed to pass, and I think this is the beautiful part of the certification.
 
@@ -114,7 +114,7 @@ Are all the possibilities I just mentioned covered in the syllabus? Well, no, th
 
 After this summary, I'll share some of the resources that helped me solve the labs and the exam, and which today are part of my toolkit for pentesting tasks:
 
-```c
+```txt
 Windows PrivEsc Checklist: https://daniel10barredo.github.io/PrivEscAssist_Windows/
 
 Linux PrivEsc Checklist: https://daniel10barredo.github.io/PrivEscAssist_Linux/
