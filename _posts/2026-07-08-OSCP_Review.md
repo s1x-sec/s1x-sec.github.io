@@ -28,15 +28,15 @@ I bought the certification in December 2025 and got my pass (after failing once)
 
 Since people have a short attention span lately (thanks tik tok), I'm going to quickly answer the questions you care about if you're reading this.
 
-1. **How long does it take to go through all the theory and make your notes?**
+**How long does it take to go through all the theory and make your notes?**
 
 It's going to depend a lot on the person, but in my case it took exactly 95 hours and 24 minutes (keeping in mind that I went through the entire syllabus except for the AWS part).
 
-2. **How long does it take to do the challenge labs and document them?**
+**How long does it take to do the challenge labs and document them?**
 
 This is another good question because it depends on your technical skills and your ability to have those "moments" to deal with the guessing games in the labs, but this is exactly how long I spent on each lab:
 
-        ```
+        ```html
         Secura: 7 hours and 55 minutes
 
         Medtech: 22 hours and 13 minutes
@@ -58,7 +58,7 @@ This is another good question because it depends on your technical skills and yo
 
   ![1]
 
-3. **Was it hard to fail?**
+**Was it hard to fail?**
 
 Yes. 
     
@@ -130,7 +130,7 @@ Are all the possibilities I just mentioned covered in the syllabus? Well, no, th
 
 After this summary, I'll share some of the resources that helped me solve the labs and the exam, and which today are part of my toolkit for pentesting tasks:
 
-```
+```html
     Windows PrivEsc Checklist: https://daniel10barredo.github.io/PrivEscAssist_Windows/
 
     Linux PrivEsc Checklist: https://daniel10barredo.github.io/PrivEscAssist_Linux/
