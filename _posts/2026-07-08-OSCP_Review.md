@@ -1,7 +1,7 @@
 ---
 layout: single
 title: OSCP+ Honest Review
-excerpt: "OSCP certification is considered the must have certificacion for any penetration tester....but is worth to give it a try on 2026?"
+excerpt: "OSCP certification is considered the must-have certification for any penetration tester... but is it worth giving it a try in 2026?"
 date: 2026-07-08
 classes: wide
 header:
