@@ -36,28 +36,12 @@ It's going to depend a lot on the person, but in my case it took exactly 95 hour
 
 This is another good question because it depends on your technical skills and your ability to have those "moments" to deal with the guessing games in the labs, but this is exactly how long I spent on each lab:
 
-```html
-Secura: 7 hours and 55 minutes
+![1]
 
-Medtech: 22 hours and 13 minutes
 
-Relia: 35 hours and 3 minutes
+I want to emphasize that depending on your skills and how much you like to dig deep, this time could be longer or shorter. In my case, I documented all the machines in all the labs and made diagrams to understand the lab networks (in Relia, this is very necessary).
 
-OSCP A: 15 hours and 6 minutes
-
-OSCP B: 10 hours
-
-OSCP C: 9 hours and 21  minutes
-
-Standalone machines: 89 hours and 6 minutes
-
-Environment preparation: 5 hours and 18 minutes
-```       
-
-  I want to emphasize that depending on your skills and how much you like to dig deep, this time could be longer or shorter. In my case, I documented all the machines in all the labs and made diagrams to understand the lab networks (in Relia, this is very necessary).
-
-  ![1]
-
+  
 **Was it hard to fail?**
 
 Yes. 
@@ -130,7 +114,7 @@ Are all the possibilities I just mentioned covered in the syllabus? Well, no, th
 
 After this summary, I'll share some of the resources that helped me solve the labs and the exam, and which today are part of my toolkit for pentesting tasks:
 
-```html
+```c
 Windows PrivEsc Checklist: https://daniel10barredo.github.io/PrivEscAssist_Windows/
 
 Linux PrivEsc Checklist: https://daniel10barredo.github.io/PrivEscAssist_Linux/
@@ -147,7 +131,6 @@ Shell Handler: https://github.com/brightio/penelope
 As for my notes, I think it's something very personal, and if you don't make your own notes, you won't see the point in getting this certification.....even so, I'll leave a screenshot of the final structure of the notes that helped me pass.
 
 ![2]
-
 
 
 ## Conclusion
