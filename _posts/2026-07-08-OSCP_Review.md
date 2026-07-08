@@ -28,14 +28,15 @@ I bought the certification in December 2025 and got my pass (after failing once)
 
 Since people have a short attention span lately (thanks tik tok), I'm going to quickly answer the questions you care about if you're reading this.
 
-1. How long does it take to go through all the theory and make your notes?
+1. **How long does it take to go through all the theory and make your notes?**
 
-    It's going to depend a lot on the person, but in my case it took exactly 95 hours and 24 minutes (keeping in mind that I went through the entire syllabus except for the AWS part).
+It's going to depend a lot on the person, but in my case it took exactly 95 hours and 24 minutes (keeping in mind that I went through the entire syllabus except for the AWS part).
 
-2. How long does it take to do the challenge labs and document them?
+2. **How long does it take to do the challenge labs and document them?**
 
-    This is another good question because it depends on your technical skills and your ability to have those "moments" to deal with the guessing games in the labs, but this is exactly how long I spent on each lab:
+This is another good question because it depends on your technical skills and your ability to have those "moments" to deal with the guessing games in the labs, but this is exactly how long I spent on each lab:
 
+        ```
         Secura: 7 hours and 55 minutes
 
         Medtech: 22 hours and 13 minutes
@@ -51,18 +52,19 @@ Since people have a short attention span lately (thanks tik tok), I'm going to q
         Standalone machines: 89 hours and 6 minutes
 
         Environment preparation: 5 hours and 18 minutes
+         ```       
 
-    I want to emphasize that depending on your skills and how much you like to dig deep, this time could be longer or shorter. In my case, I documented all the machines in all the labs and made diagrams to understand the lab networks (in Relia, this is very necessary).
+  I want to emphasize that depending on your skills and how much you like to dig deep, this time could be longer or shorter. In my case, I documented all the machines in all the labs and made diagrams to understand the lab networks (in Relia, this is very necessary).
 
-    ![1]
+  ![1]
 
-3. Was it hard to fail?
+3. **Was it hard to fail?**
 
-    Yes. 
+Yes. 
     
-    Oh........you want to know more? Well, I had never failed a certification before. I was used to facing certifications where the exam was very similar to what they taught you, and in this case, the exam doesn't evaluate anything they teach you........well, they do, but their main focus is measuring your endurance in front of a screen, your ability to handle situations where it seems like the exploit doesn't work and you're just missing one tiny piece....ultimately, they want you to be a try harder.
+Oh........you want to know more? Well, I had never failed a certification before. I was used to facing certifications where the exam was very similar to what they taught you, and in this case, the exam doesn't evaluate anything they teach you........well, they do, but their main focus is        measuring your endurance in front of a screen, your ability to handle situations where it seems like the exploit doesn't work and you're just missing one tiny piece....ultimately, they want you to be a try harder.
 
-    After the first attempt, I had a week where it didn't really affect me, but then the world came crashing down and I even thought about quitting....honestly, if you're reading this and thinking about quitting, I'm not going to tell you not to. My advice is to do whatever you think will make you happy in that moment. For me, stopping studying and forgetting about the certification made me very happy....for those who don't know, if you fail, you have a cooldown period before you can take it again. In my case, I decided to schedule the exam for the exact first day the cooldown ended because I needed to get it done and, whatever the result, get it out of my head.
+After the first attempt, I had a week where it didn't really affect me, but then the world came crashing down and I even thought about quitting....honestly, if you're reading this and thinking about quitting, I'm not going to tell you not to. My advice is to do whatever you think will make      you happy in that moment. For me, stopping studying and forgetting about the certification made me very happy....for those who don't know, if you fail, you have a cooldown period before you can take it again. In my case, I decided to schedule the exam for the exact first day the cooldown        ended because I needed to get it done and, whatever the result, get it out of my head.
 
 
 ## For non Tik Tok users
@@ -70,7 +72,7 @@ Since people have a short attention span lately (thanks tik tok), I'm going to q
 
 If you've made it this far, I'm guessing you want to know how I approached everything and what resources helped me pass.
 
-- Content Management
+**Content Management**
 
 The syllabus has 31 modules, of which I did the ones that strictly appeared on the exam (I'm trying to complete the rest now). As I mentioned, reading the text, taking notes, and researching the techniques detailed there took me 95 hours. It might seem like a lot of boring hours, but keep in mind that throughout the syllabus there are small labs that liven up the journey.
 
@@ -82,12 +84,13 @@ Is the whole syllabus enough to pass? Yes and no.......OffSec isn't going to tea
 
 Talking to colleagues who were preparing for the OSCP, I realized that we all approached things differently, and that's the beautiful thing about this field: sharing and learning (which is why I'm making this blog).
 
-- Labs
+**Labs**
 
 If I had to keep just one thing from the whole certification, I would definitely choose the Challenge Labs. You start from the bottom up and you really feel like you're making progress. An example: in Secura, I got stuck for 3 hours because I didn't use nxc with the --local-auth flag, and then in a more advanced lab, I was already testing with --local-auth and without it....it seems silly, but details like that help you not fail on the small stuff on exam day (which still happens).
 
 It's true that I don't see OSCP A, B, and C aligned with the difficulty of the exams....the standalone machines have a suitable difficulty similar to the exam ones, but the AD sets feel a bit outdated compared to the two AD sets I actually ended up solving in the exam (I don't know if the rest of the exam scenarios are easier).
-First Exam Attempt
+
+**First Exam Attempt**
 
 On the first attempt, I felt super prepared. It's true that the little imposter inside me only remembered the machines I couldn't solve and had to look up write-ups for (I'll talk about this later).
 
@@ -103,7 +106,7 @@ Even so, I wrote the report and sent it to OffSec to get feedback on what I had 
 
 Days passed, and I had to face a brutal panic about failing again. I couldn't sit down to do a CTF, I couldn't review notes or solve new machines. My head was completely exhausted, which led me to take the second exam attempt without studying.
 
-- Second Exam Attempt
+**Second Exam Attempt**
 
 This time the exam started at 9 AM. I consider myself much more productive around 10-11 AM, which is why I always choose these kinds of times.
 
@@ -117,7 +120,7 @@ I could say that at that moment I was happy about getting the certification, but
 
 The next day I did the report, and 3 days after sending it, they confirmed I had passed.
 
-- Resources
+**Resources**
 
 As for resources, I used the OffSec material.....What!?!? No 10 additional tutorials? The truth is I don't have a track record of all the resources used. I have commands and notes that I put together as OffSec taught me the techniques needed to pass, and I think this is the beautiful part of the certification.
 
@@ -127,6 +130,7 @@ Are all the possibilities I just mentioned covered in the syllabus? Well, no, th
 
 After this summary, I'll share some of the resources that helped me solve the labs and the exam, and which today are part of my toolkit for pentesting tasks:
 
+```
     Windows PrivEsc Checklist: https://daniel10barredo.github.io/PrivEscAssist_Windows/
 
     Linux PrivEsc Checklist: https://daniel10barredo.github.io/PrivEscAssist_Linux/
@@ -138,6 +142,7 @@ After this summary, I'll share some of the resources that helped me solve the la
     Pivoting: https://github.com/nicocha30/ligolo-ng
 
     Shell Handler: https://github.com/brightio/penelope
+```
 
 As for my notes, I think it's something very personal, and if you don't make your own notes, you won't see the point in getting this certification.....even so, I'll leave a screenshot of the final structure of the notes that helped me pass.
 
