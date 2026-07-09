@@ -16,13 +16,13 @@ tags:
 ---
 
 
-## Introduction
+# Introduction
 
 Hello everyone, when I started this blog a few years ago I always dreamed of doing this review at some point.....and I can finally do it.
 
 In this post, you're going to see how long it actually takes to complete the theory, some of the external resources I've used, the time it took me to solve the labs, and my experience with both exam attempts and emotional management (because yes, you can fail).
 
-## Review for Tik Tok users.
+# Review for Tik Tok users.
 
 I bought the certification in December 2025 and got my pass (after failing once) in May 2026.
 
@@ -51,12 +51,12 @@ Oh........you want to know more? Well, I had never failed a certification before
 After the first attempt, I had a week where it didn't really affect me, but then the world came crashing down and I even thought about quitting....honestly, if you're reading this and thinking about quitting, I'm not going to tell you not to. My advice is to do whatever you think will make      you happy in that moment. For me, stopping studying and forgetting about the certification made me very happy....for those who don't know, if you fail, you have a cooldown period before you can take it again. In my case, I decided to schedule the exam for the exact first day the cooldown        ended because I needed to get it done and, whatever the result, get it out of my head.
 
 
-## For non Tik Tok users
+# For non Tik Tok users
 
 
 If you've made it this far, I'm guessing you want to know how I approached everything and what resources helped me pass.
 
-### Content Management
+## Content Management
 
 The syllabus has 31 modules, of which I did the ones that strictly appeared on the exam (I'm trying to complete the rest now). As I mentioned, reading the text, taking notes, and researching the techniques detailed there took me 95 hours. It might seem like a lot of boring hours, but keep in mind that throughout the syllabus there are small labs that liven up the journey.
 
@@ -68,7 +68,7 @@ Is the whole syllabus enough to pass? Yes and no.......OffSec isn't going to tea
 
 Talking to colleagues who were preparing for the OSCP, I realized that we all approached things differently, and that's the beautiful thing about this field: sharing and learning (which is why I'm making this blog).
 
-### Labs
+## Labs
 
 If I had to keep just one thing from the whole certification, I would definitely choose the Challenge Labs. You start from the bottom up and you really feel like you're making progress. An example: in Secura, I got stuck for 3 hours because I didn't use nxc with the --local-auth flag, and then in a more advanced lab, I was already testing with --local-auth and without it....it seems silly, but details like that help you not fail on the small stuff on exam day (which still happens).
 
@@ -78,7 +78,7 @@ It's true that I don't see OSCP A, B, and C aligned with the difficulty of the e
 
 
 
-### First Exam Attempt
+## First Exam Attempt
 
 On the first attempt, I felt super prepared. It's true that the little imposter inside me only remembered the machines I couldn't solve and had to look up write-ups for.
 
@@ -98,7 +98,7 @@ Days passed, and I had to face a brutal panic about failing again. I couldn't si
 
 
 
-### Second Exam Attempt
+## Second Exam Attempt
 
 This time the exam started at 9 AM. I consider myself much more productive around 10-11 AM, which is why I always choose these kinds of times.
 
@@ -116,7 +116,7 @@ The next day I did the report, and 3 days after sending it, they confirmed I had
 
 
 
-### Resources
+## Resources
 
 As for resources, I used the OffSec material.....What!?!? No 10 additional tutorials? The truth is I don't have a track record of all the resources used. I have commands and notes that I put together as OffSec taught me the techniques needed to pass, and I think this is the beautiful part of the certification.
 
